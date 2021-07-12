@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', serif;
   margin: 0;
   color: #40514E;
-  background-color:#52734d;
+  background-color:#d6efc7;
 }
 
 
@@ -114,11 +114,15 @@ hr {
   width: auto;
   padding-top: 10px;
 }
+.img {
+    border: none;
+}
 
 .profile {
   line-height: 2;
   margin: auto auto;
   width: 50%;
+  border: none;
 }
 
 .profile-img {
@@ -267,39 +271,47 @@ hr {
 
 
 /** Partie des skills **/
+
 .skills {
   margin-top: 20px;
 }
 
 
 .skill-row {
-  line-height: 2;
-  margin: 50px auto;
-  text-align: left;
-  width: 50%;
+  margin: 10px auto;
+  width: 1000px;
 }
 
 .skill-prog {
-  width: 50%;
-  margin-bottom: 30px;
+  width: 415px;
+  margin-top: 20px;
 }
 
 .skill-analytics {
-  width: 50%;
-  float: left;
-  margin-bottom: 30px;
+  width: 413px;
+  margin-top: 20px;
 }
 
 .skill-project {
-  width: 50%;
-  float: left;
+  width: 413px;
   margin-bottom: 30px;
 }
 
 .skill-marketing {
-  width: 50%;
-  float: right;
+  width: 413px;
   margin-bottom: 30px;
+}
+
+
+.softskills {
+    width: 50%;
+    position: relative;
+}
+
+.interests {
+  position: relative;
+  width: 55%;
+  margin: auto auto;
 }
 
 .skill-img1 {
@@ -314,22 +326,12 @@ hr {
   margin-left: 30px;
 }
 
-.softskills {
-    width: 50%;
-    position: relative;
-}
-
-.interests {
-  position: relative;
-  width: 55%;
-  margin: auto auto;
-}
-
 .contact-me {
   line-height: 2;
   margin: auto;
   padding-bottom: 35px;
-  width: 50%;
+  width: 100%;
+  background:#d6efc7;
 }
 
 .copyright {
@@ -357,5 +359,17 @@ hr {
     .box {
         left: calc(50% - 10px)
     }
+
+}
+
+@media only screen and (max-device-width:980px) {
+    .softskills {
+        width: 80%;
+    }
+
+    .skill-row {
+        width: 80%;
+    }
+
 
 }
