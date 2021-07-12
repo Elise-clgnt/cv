@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Elise Clugnet</title>
+    <link rel="stylesheet" href="CSS-Style/styles.css">
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
+          rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+<body>
+
+<div class="top-container">
+    <img class="birds-img" src="Images/oiseau.png" alt="cloud-img">
+    <h1>I'm Elise,</h1>
+    <h2 class="subtitle">Data & Impact enthousiast <span class="for">for the Planet. </span></h2>
+    <img class="tree-img" src="Images/arbrehaut.png" alt="arbre-img">
+</div>
+
+
+<div class="middle-container">
+    <div class="profile">
+        <img class="profile-img" src="Images/elise.png" alt="profile-img">
+        <h2>Hello.</h2>
+        <h3>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</h3>
+    </div>
+    <img class="roots-img" src="Images/racine.png" alt="arbre-img">
+
+    <hr>
+
+    <h2>Timeline.</h2>
+    <div class="box-timeline">
+
+        <div class="ligne"></div>
+
+        <div class="rond r1" data-anim="1"></div>
+        <div class="rond r2" data-anim="2"></div>
+        <div class="rond r3" data-anim="3"></div>
+        <div class="rond r4" data-anim="4"></div>
+        <div class="rond r5" data-anim="5"></div>
+        <div class="rond r6" data-anim="6"></div>
+
+
+        <a href="#box1"></a>
+        <div class="box b1" data-anim="1">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <main class="js-document">
+                <button type="button"
+                        aria-haspopup="dialog"
+                        aria-controls="dialog"
+                        class="btn">+
+                </button>
+            </main>
+        </div>
+        <!--                <div id="formation" class="modal">
+                            <div class="modal_content">
+                                <h3>Formation en Data analyse</h3>
+                                <p>Lorem Ipsum</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#box1" class="modal_close">&times;</a>
+                            </div>
+                        </div>-->
+        <div id="dialog"
+             role="dialog"
+             aria-modal="true"
+             aria-hidden="true"
+             tabindex="-1"
+             class="c-dialog">
+            <div role="document" class="c-dialog__box">
+                <button type="button"
+                        role="button"
+                        aria-label="Fermer"
+                        data-dismiss="dialog">x
+                </button>
+                <h2>Ma fenêtre modale</h2>
+                <p>Je suis une fenêtre modale accessible.</p>
+                <p> Lorem Ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <a href="#box2"></a>
+        <div class="box b2" data-anim="2">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <main class="js-document">
+                <button type="button"
+                        aria-haspopup="dialog"
+                        aria-controls="dialog"
+                        class="btn">+
+                </button>
+            </main>
+        </div>
+        <div id="dialog2"
+             role="dialog"
+             aria-modal="true"
+             aria-hidden="true"
+             tabindex="-1"
+             class="c-dialog">
+            <div role="document" class="c-dialog__box">
+                <button type="button"
+                        aria-label="Fermer"
+                        data-dismiss="dialog">x
+                </button>
+                <h2>Ma fenêtre modale</h2>
+                <p>Je suis une fenêtre modale accessible.</p>
+                <p> Lorem Ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <a href="#box3"></a>
+        <div class="box b3" data-anim="3">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <main class="js-document">
+                <button type="button"
+                        aria-haspopup="dialog"
+                        aria-controls="dialog"
+                        class="btn">+
+                </button>
+            </main>
+        </div>
+        <div id="dialog3"
+             role="dialog"
+             aria-modal="true"
+             aria-hidden="true"
+             tabindex="-1"
+             class="c-dialog">
+            <div role="document" class="c-dialog__box">
+                <button type="button"
+                        class="button_fermer"
+                        data-dismiss="dialog">x
+                </button>
+                <h2>Ma fenêtre modale</h2>
+                <p>Je suis une fenêtre modale accessible.</p>
+                <p> Lorem Ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <a href="#box4"></a>
+        <div class="box b4" data-anim="4">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <main class="js-document">
+                <button type="button"
+                        aria-haspopup="dialog"
+                        aria-controls="dialog"
+                        class="btn">+
+                </button>
+            </main>
+        </div>
+        <div id="dialog4"
+             role="dialog"
+             aria-modal="true"
+             aria-hidden="true"
+             tabindex="-1"
+             class="c-dialog">
+            <div role="document" class="c-dialog__box">
+                <button type="button"
+                        aria-label="Fermer"
+                        data-dismiss="dialog">x
+                </button>
+                <h2>Ma fenêtre modale</h2>
+                <p>Je suis une fenêtre modale accessible.</p>
+                <p> Lorem Ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+
+        <a href="#box5"></a>
+        <div class="box b5" data-anim="5">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <main class="js-document">
+                <button type="button"
+                        aria-haspopup="dialog"
+                        aria-controls="dialog"
+                        class="btn">+
+                </button>
+            </main>
+        </div>
+        <div id="dialog5"
+             role="dialog"
+             aria-modal="true"
+             aria-hidden="true"
+             tabindex="-1"
+             class="c-dialog">
+            <div role="document" class="c-dialog__box">
+                <button type="button"
+                        aria-label="Fermer"
+                        data-dismiss="dialog">x
+                </button>
+                <h2>Ma fenêtre modale</h2>
+                <p>Je suis une fenêtre modale accessible.</p>
+                <p> Lorem Ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <a href="#box6"></a>
+        <div class="box b6" data-anim="6">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <main class="js-document">
+                <button type="button"
+                        aria-haspopup="dialog"
+                        aria-controls="dialog"
+                        class="btn">+
+                </button>
+            </main>
+        </div>
+        <div id="dialog6"
+             role="dialog"
+             aria-modal="true"
+             aria-hidden="true"
+             tabindex="-1"
+             class="c-dialog">
+            <div role="document" class="c-dialog__box">
+                <button type="button"
+                        aria-label="Fermer"
+                        data-dismiss="dialog">x
+                </button>
+                <h2>Ma fenêtre modale</h2>
+                <p>Je suis une fenêtre modale accessible.</p>
+                <p> Lorem Ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="skills">
+        <h2>Hard Skills.</h2>
+        <div class="skill-row">
+            <img class="skill-analytics" src="Images/data-analytics-skills_2.png" alt="data_analytic_img">
+            <img class="skill-prog" src="Images/programming-skills_2.png" alt="programing-img">
+        </div>
+        <div class="skill-row">
+            <img class="skill-project" src="Images/project-skills_2.png" alt="project-img">
+            <img class="skill-marketing" src="Images/marketing-skills_2.png" alt="marketing_img">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="skills">
+        <h2>Soft Skills.</h2>
+        <img class="softskills" src="Images/Softskills.jpg" alt="soft-skills-img">
+    </div>
+
+    <hr>
+
+    <div class="skills">
+        <h2>Interest.</h2>
+        <div class="skill-row">
+            <img class="skill-img1" src="Images/computer.png" alt="computer-img">
+            <h3>Lorem & Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna
+                lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        </div>
+        <div class="skill-row">
+            <img class="skill-img2" src="Images/chillies.png" alt="universe_img">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis
+                mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="button" href="mailto:elise.clugnet@gmail.com">CONTACT ME</a>
+    </div>
+</div>
+
+<div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://www.instagram.com/">Instagram</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2021 Elise Clugnet.</p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
