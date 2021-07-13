@@ -28,7 +28,6 @@ h1 {
 h2 {
   color: #184d47;
   font-family: 'Montserrat', sans-serif;
-  font-style: 1.875rem;
   padding : 10px 0 10px 0;
 }
 
@@ -104,7 +103,7 @@ hr {
   max-width: 80%;
   height: auto;
   width: auto;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .roots-img {
@@ -121,12 +120,12 @@ hr {
 .profile {
   line-height: 2;
   margin: auto auto;
-  width: 50%;
+  width: 80%;
   border: none;
 }
 
 .profile-img {
-  width: 25%;
+  width: 15%;
   margin-top: 30px;
 }
 
@@ -290,6 +289,7 @@ hr {
 .skill-analytics {
   width: 413px;
   margin-top: 20px;
+
 }
 
 .skill-project {
@@ -357,19 +357,39 @@ hr {
         left: calc(50% + 170px);
     }
     .box {
-        left: calc(50% - 10px)
+        left: calc(50% - 10px);
     }
 
-}
-
-@media only screen and (max-device-width:980px) {
-    .softskills {
-        width: 80%;
+    .top-container {
+        zoom: 1.8;
+        margin-top: 6rem;
     }
+
+    .tree-img {
+        min-width: 100%;
+        padding: 5rem 0 0 0;
+    }
+
+    .birds-img {
+        min-width: 35%;
+        position: absolute;
+    }
+
+    .subtitle {
+        font-size: 0.850rem;
+        line-height: 2;
+    }
+
 
     .skill-row {
-        width: 80%;
+        width: 600px;
     }
 
+    .contact-me {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 }
+
+
