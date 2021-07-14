@@ -281,26 +281,26 @@ hr {
 
 .skill-prog {
   width: 415px;
-  margin: 20px 5px 0 5px;
+  margin: 25px 5px 0 5px;
 
 }
 
 .skill-analytics {
   width: 413px;
-  margin: 20px 5px 0 5px;
+  margin: 25px 5px 0 5px;
 
 
 }
 
 .skill-project {
   width: 413px;
-  margin: 5px 5px 30px 5px;
+  margin: 25px 5px 5px 5px;
 
 }
 
 .skill-marketing {
   width: 413px;
-  margin: 5px 5px 30px 5px;
+  margin: 25px 5px 5px 5px;
 
 }
 
@@ -343,7 +343,7 @@ hr {
 
 .copyright {
     margin: 30px auto 10px auto;
-    font-size: 0.5rem;
+    font-size: 0.875rem;
 }
 
 
@@ -377,7 +377,7 @@ hr {
     }
 
     .top-container {
-        zoom: 1.8;
+        zoom: 2;
         margin-top: 8rem;
     }
 
@@ -385,7 +385,7 @@ hr {
         min-width: 100%;
         zoom: 2;
         position: relative;
-        padding: 5rem 0 0 0;
+        padding: 4rem 0 0 0;
     }
 
     .birds-img {
@@ -394,7 +394,7 @@ hr {
     }
 
     .subtitle {
-        font-size: 0.875rem;
+        font-size: 1rem;
         line-height: 2;
     }
 
