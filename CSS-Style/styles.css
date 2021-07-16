@@ -9,7 +9,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: 'Merriweather', serif;
+  font-family:'Montserrat', sans-serif;
   margin: 0;
   color: #40514E;
   background-color: #F1ECC3;
@@ -35,6 +35,17 @@ h3 {
   color: #184d47;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
+}
+
+h5 {
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 0.7rem;
+}
+
+h6 {
+    padding-top: 10px;
 }
 
 p {
@@ -127,6 +138,13 @@ hr {
   margin-top: 30px;
 }
 
+.intro {
+    width: 34rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
 
 .copyright {
   font-size: 0.75rem;
@@ -135,13 +153,13 @@ hr {
 
 .box-timeline {
     width: 100%;
-    height: 1150px;
+    height: 1480px;
     position: relative;
     padding: 30px 0 50px 0;
 }
 
 .ligne {
-    height: 1000px;
+    height: 1250px;
     width: 8px;
     margin: 0 auto;
     background: #184d47;
@@ -161,16 +179,16 @@ hr {
     font-size: 40px;
 }
 /* 1000 - 160 + 80 / 3 =~ 306 */
-.r1{top: 80px;}
-.r2{top: 255px;}
-.r3{top: 430px;}
-.r4{top: 605px;}
-.r5{top: 780px;}
-.r6{top: 955px;}
+.r1{top: 50px;}
+.r2{top: 320px;}
+.r3{top: 560px;}
+.r4{top: 800px;}
+.r5{top: 1060px;}
+.r6{top: 1240px;}
 
 .box {
     color: #184d47;
-    width: 270px;
+    width: 19rem;
     padding: 20px 5px 5px 5px;
     border-radius: 3px;
     height: auto;
@@ -182,36 +200,36 @@ hr {
 }
 
 .b1 {
-    top: 80px;
+    top: 50px;
     left: calc(50% - 170px);
 }
 .b2 {
-    top: 255px;
+    top: 320px;
     left: calc(50% + 170px);
 }
 .b3 {
-    top: 430px;
+    top: 560px;
     left: calc(50% - 170px);
 }
 .b4 {
-    top: 605px;
+    top: 800px;
     left: calc(50% + 170px);
 }
 
 .b5 {
-    top: 780px;
+    top: 1060px;
     left: calc(50% - 170px);
 }
 
 .b6 {
-    top: 955px;
+    top: 1240px;
     left: calc(50% + 170px);
 }
 
 .box p {
     line-height: 20px;
     font-size: 0.85rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, bold;
     text-align: left;
     margin: 10px 0 0 10px;
 }
@@ -222,7 +240,6 @@ hr {
     color: #f1f1f1;
     text-decoration: none;
     border-radius: 3px;
-    margin-top: 10px;
 }
 /** Mise en forme CSS de la fenetre modale accessible **/
 
@@ -244,16 +261,57 @@ hr {
 /** dialog box **/
 .c-dialog__box {
   flex: 1;
-  max-width: 22rem;
+  max-width: 25rem;
   margin: auto;
-  padding: 0 0 15px 0;
-  background-color: white;
+  padding: 15px 15px 15px 15px;
+  background-color: #FEFFDE;
+}
+
+#dialog #dialog2 #dialog3 #dialog4 #dialog5 #dialog6 {
+    font-size: 2rem;
+    margin: 10px;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 2;
+}
+
+
+#dialog a {
+    color: #184d47;
+    text-decoration: underline;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding:0;
+}
+
+#dialog2 a {
+    color: #184d47;
+    text-decoration: underline;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding:0;
+}
+
+#dialog5 a {
+    color: #184d47;
+    text-decoration: underline;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding:0;
 }
 
 [role="button"] {
   position: relative;
-  display: inline;
-  left: 160px;
+  display: inline-block;
+  left: -11.5rem;
+  top: -0.5rem;
   background:#f1f1f1;
   color: grey;
   text-decoration: none;
