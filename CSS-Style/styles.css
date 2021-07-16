@@ -153,13 +153,13 @@ hr {
 
 .box-timeline {
     width: 100%;
-    height: 1800px;
+    height: 1700px;
     position: relative;
     padding: 30px 0 50px 0;
 }
 
 .ligne {
-    height: 1580px;
+    height: 1550px;
     width: 8px;
     margin: 0 auto;
     background: #184d47;
@@ -181,10 +181,10 @@ hr {
 /* 1000 - 160 + 80 / 3 =~ 306 */
 .r1{top: 50px;}
 .r2{top: 380px;}
-.r3{top: 680px;}
-.r4{top: 980px;}
-.r5{top: 1290px;}
-.r6{top: 1530px;}
+.r3{top: 660px;}
+.r4{top: 960px;}
+.r5{top: 1270px;}
+.r6{top: 1500px;}
 
 .box {
     color: #184d47;
@@ -208,21 +208,21 @@ hr {
     left: calc(50% + 170px);
 }
 .b3 {
-    top: 680px;
+    top: 660px;
     left: calc(50% - 170px);
 }
 .b4 {
-    top: 980px;
+    top: 960px;
     left: calc(50% + 170px);
 }
 
 .b5 {
-    top: 1290px;
+    top: 1270px;
     left: calc(50% - 170px);
 }
 
 .b6 {
-    top: 1530px;
+    top: 1500px;
     left: calc(50% + 170px);
 }
 
