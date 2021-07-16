@@ -181,10 +181,10 @@ hr {
 /* 1000 - 160 + 80 / 3 =~ 306 */
 .r1{top: 50px;}
 .r2{top: 380px;}
-.r3{top: 690px;}
-.r4{top: 990px;}
-.r5{top: 1300px;}
-.r6{top: 1540px;}
+.r3{top: 680px;}
+.r4{top: 980px;}
+.r5{top: 1290px;}
+.r6{top: 1530px;}
 
 .box {
     color: #184d47;
@@ -208,21 +208,21 @@ hr {
     left: calc(50% + 170px);
 }
 .b3 {
-    top: 690px;
+    top: 680px;
     left: calc(50% - 170px);
 }
 .b4 {
-    top: 990px;
+    top: 980px;
     left: calc(50% + 170px);
 }
 
 .b5 {
-    top: 1300px;
+    top: 1290px;
     left: calc(50% - 170px);
 }
 
 .b6 {
-    top: 1540px;
+    top: 1530px;
     left: calc(50% + 170px);
 }
 
