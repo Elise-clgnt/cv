@@ -180,11 +180,11 @@ hr {
 }
 /* 1000 - 160 + 80 / 3 =~ 306 */
 .r1{top: 50px;}
-.r2{top: 370px;}
+.r2{top: 380px;}
 .r3{top: 620px;}
 .r4{top: 890px;}
 .r5{top: 1160px;}
-.r6{top: 1350px;}
+.r6{top: 1340px;}
 
 .box {
     color: #184d47;
@@ -204,7 +204,7 @@ hr {
     left: calc(50% - 170px);
 }
 .b2 {
-    top: 370px;
+    top: 380px;
     left: calc(50% + 170px);
 }
 .b3 {
@@ -222,7 +222,7 @@ hr {
 }
 
 .b6 {
-    top: 1350px;
+    top: 1340px;
     left: calc(50% + 170px);
 }
 
