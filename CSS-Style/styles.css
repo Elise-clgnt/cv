@@ -426,6 +426,8 @@ hr {
     .box {
         left: calc(50% - 10px);
         zoom: 1.8;
+        width: 80%;
+        margin: 0;
     }
 
     .box-timeline {
@@ -462,13 +464,6 @@ hr {
         width: 100%;
     }
 
-    .box-timeline {
-        min-width: 100%;
-    }
-
-    .box {
-        max-width: 100%;
-    }
 
     .c-dialog__box {
         zoom: 0.6;
@@ -478,7 +473,7 @@ hr {
     [role="button"] {
         position: relative;
         display: inline-block;
-        left: -17rem;
+        left: -17.5rem;
         top: -0.5rem;
         background:#f1f1f1;
         color: grey;
@@ -501,8 +496,9 @@ hr {
     }
 
     .logo {
-        width: 15%;
-        margin: 1rem;
+        width: 12%;
+        margin-left: 1rem;
+        margin-top: 1rem;
     }
 
     .interests {
@@ -515,3 +511,5 @@ hr {
     }
 
 }
+
+
