@@ -109,7 +109,7 @@ hr {
 
 .tree-img {
   position: relative;
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
   width: auto;
   margin-top: 1.25rem;
@@ -435,16 +435,18 @@ hr {
     }
 
     .top-container {
-        zoom: 2;
+        zoom: 1.8;
         margin-top: 8rem;
     }
 
     .tree-img {
         min-width: 100%;
-        zoom: 2;
+        zoom:2;
+        display: inline-block;
         position: relative;
         padding: 4rem 0 0 0;
     }
+
 
     .birds-img {
         min-width: 35%;
@@ -452,18 +454,37 @@ hr {
     }
 
     .subtitle {
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 2;
     }
 
+    .intro {
+        zoom: 1.2;
+        width: 100%;
+    }
+
+    .box-timeline {
+        zoom: 1.8;
+    }
 
     .skill-row {
         width: 600px;
+        zoom: 1.2;
+    }
+
+    .softskills {
+        width: 65%;
+    }
+
+    .languages {
+        zoom: 1.2;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .contact-me {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
 }
