@@ -424,9 +424,9 @@ hr {
         zoom: 1.8;
     }
     .box {
-        left: calc(50% - 10px);
+        left: calc(45%);
         zoom: 1.8;
-        min-width: 50%;
+        min-width: 70%;
         height: auto;
         margin: 0;
     }
