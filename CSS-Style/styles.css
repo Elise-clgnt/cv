@@ -6,13 +6,13 @@
 
 
 body {
-  text-align: center;
-  justify-content: center;
   align-items: center;
-  font-family:'Montserrat', sans-serif;
-  margin: 0;
-  color: #40514E;
   background-color: #F1ECC3;
+  color: #40514E;
+  font-family:'Montserrat', sans-serif;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
 }
 
 
@@ -38,19 +38,16 @@ h3 {
 }
 
 h5 {
-    text-align: justify;
-    padding: 10px;
-    line-height: 1.5;
     font-size: 0.7rem;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: justify;
 }
 
 h6 {
     padding-top: 10px;
 }
 
-p {
-   font-family: 'Montserrat', sans-serif;
-}
 
 a {
   color: #EAF6F6;
@@ -68,69 +65,74 @@ a:hover {
 hr {
   border-style: none;
   border-top-style: dotted;
-  color: #C9D8B6;
   border-width: 5px;
-  width: 15%;
+  color: #C9D8B6;
   margin: 30px auto 10px auto;
+  width: 15%;
 }
 
+.button {
+  background: #184d47;
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 45%;
+}
+
+
+/** Partie du haut jusqu'à l'arbre **/
 .top-container {
-  position: relative;
   padding-top: 100px;
-}
-
-.middle-container {
   position: relative;
-}
-
-.bottom-container {
-  background-color:#184d47;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  color: #EAF6F6;
-}
-
-.subtitle {
-  font-weight: normal;
-  font-size: 1.5rem;
 }
 
 .for {
   text-decoration: underline;
 }
 
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
 .birds-img {
+  max-width: 28%;
   position:absolute;
   right: 150px;
   top: 1px;
-  max-width: 28%;
 }
-
 
 .tree-img {
-  position: relative;
-  max-width: 70%;
   height: auto;
-  width: auto;
   margin-top: 1.25rem;
+  max-width: 70%;
+  position: relative;
+  width: auto;
 }
 
-.roots-img {
+/** Partie du centrale avec 5 sous containers **/
+.middle-container {
   position: relative;
-  max-width: 80%;
-  height: auto;
-  width: auto;
-  padding-top: 10px;
 }
+
+/** sous-partie une: profil **/
+.roots-img {
+  height: auto;
+  max-width: 80%;
+  padding-top: 10px;
+  position: relative;
+  width: auto;
+}
+
 .img {
-    border: none;
+  border: none;
 }
 
 .profile {
+  border: none;
   line-height: 2;
   margin: auto auto;
   width: 80%;
-  border: none;
 }
 
 .profile-img {
@@ -139,17 +141,15 @@ hr {
 }
 
 .intro {
-    width: 34rem;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
+  width: 34rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
 }
 
-.copyright {
-  font-size: 0.75rem;
-  font-family: 'Montserrat', sans-serif;
-}
+
+/** Sous-partie deux : timeline **/
 
 .box-timeline {
     width: 100%;
@@ -157,7 +157,7 @@ hr {
     position: relative;
     padding: 30px 0 50px 0;
 }
-
+/** ligne verticale **/
 .ligne {
     height: 1550px;
     width: 8px;
@@ -165,6 +165,7 @@ hr {
     background: #184d47;
 }
 
+/** rond sur la ligne liés aux box **/
 .rond {
     width: 25px;
     height: 25px;
@@ -178,7 +179,7 @@ hr {
     align-items: center;
     font-size: 40px;
 }
-/* 1000 - 160 + 80 / 3 =~ 306 */
+/* placement des ronds */
 .r1{top: 50px;}
 .r2{top: 380px;}
 .r3{top: 660px;}
@@ -186,6 +187,7 @@ hr {
 .r5{top: 1270px;}
 .r6{top: 1500px;}
 
+/** box structure et format **/
 .box {
     color: #184d47;
     width: 19rem;
@@ -199,6 +201,7 @@ hr {
     transform: translate(-50%);
 }
 
+/** placement des box liés aux ronds **/
 .b1 {
     top: 50px;
     left: calc(50% - 170px);
@@ -226,6 +229,7 @@ hr {
     left: calc(50% + 170px);
 }
 
+/** Formatage de la box et du contenu **/
 .box p {
     line-height: 20px;
     font-size: 0.85rem;
@@ -233,6 +237,7 @@ hr {
     text-align: left;
     margin: 10px 0 0 10px;
 }
+
 .btn {
     display: inline-block;
     background: #184d47;
@@ -241,8 +246,9 @@ hr {
     text-decoration: none;
     border-radius: 3px;
 }
-/** Mise en forme CSS de la fenetre modale accessible **/
 
+
+/** Mise en forme CSS de la fenetre modale accessible **/
 /** dialog overlay **/
 .c-dialog {
   position: fixed;
@@ -307,6 +313,7 @@ hr {
     padding:0;
 }
 
+/** Mise en forme du bouton de fermeture de la fenêtre modale **/
 [role="button"] {
   position: relative;
   display: inline-block;
@@ -324,13 +331,10 @@ hr {
   opacity: 0;
 }
 
-
-/** Partie des skills **/
-
+/** Partie des hard skills **/
 .skills {
   margin-top: 20px;
 }
-
 
 .skill-row {
   margin: 10px auto;
@@ -340,77 +344,49 @@ hr {
 .skill-prog {
   width: 415px;
   margin: 25px 5px 0 5px;
-
 }
 
 .skill-analytics {
   width: 413px;
   margin: 25px 5px 0 5px;
-
-
 }
 
 .skill-project {
   width: 413px;
   margin: 25px 5px 5px 5px;
-
 }
 
 .skill-marketing {
   width: 413px;
   margin: 25px 5px 5px 5px;
-
 }
 
-
+/** Partie soft skills **/
 .softskills {
     width: 50%;
     position: relative;
 }
 
-.interests {
-  position: relative;
-  width: 55%;
-  margin: auto auto;
-}
-
-.skill-img1 {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.skill-img2 {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
+/** Partie langues **/
 .logo {
     width: 10%;
     border-radius: 90%;
     padding: 10px;
 }
 
+/** Partie interests **/
+.interests {
+  position: relative;
+  width: 30rem;
+  margin: auto auto;
+}
+
+/** Partie Get in Touch **/
 .contact-me {
   line-height: 2;
   margin: auto;
   padding-bottom: 35px;
   width: 100%;
-}
-
-.copyright {
-    margin: 30px auto 10px auto;
-    font-size: 0.875rem;
-}
-
-
-.button {
-  text-decoration: none;
-  display: inline-block;
-  background: #184d47;
-  border-radius: 20px;
-  width: 45%;
 }
 
 .button_contact {
@@ -420,6 +396,21 @@ hr {
   border-radius: 20px;
   width: 10rem;
 }
+
+
+/** Partie du footer **/
+.bottom-container {
+  background-color:#184d47;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #EAF6F6;
+}
+
+.copyright {
+    margin: 30px auto 10px auto;
+    font-size: 0.875rem;
+}
+
 
 @media screen and (max-width: 1000px) {
 
@@ -483,11 +474,13 @@ hr {
         padding-right: 2.5rem;
     }
 
+    .interests {
+        zoom: 1.4;
+    }
+
     .contact-me {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }
 
 }
-
-
