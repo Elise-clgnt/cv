@@ -184,7 +184,7 @@ hr {
 .r2{top: 380px;}
 .r3{top: 660px;}
 .r4{top: 960px;}
-.r5{top: 1270px;}
+.r5{top: 1260px;}
 .r6{top: 1500px;}
 
 /** box structure et format **/
@@ -220,7 +220,7 @@ hr {
 }
 
 .b5 {
-    top: 1270px;
+    top: 1260px;
     left: calc(50% - 170px);
 }
 
