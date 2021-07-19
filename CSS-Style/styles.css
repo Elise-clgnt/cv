@@ -426,7 +426,7 @@ hr {
     .box {
         left: calc(50% - 10px);
         zoom: 1.8;
-        width: 80%;
+        width: 65%;
         margin: 0;
     }
 
