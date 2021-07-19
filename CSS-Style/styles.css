@@ -153,13 +153,13 @@ hr {
 
 .box-timeline {
     width: 100%;
-    height: 1700px;
+    height: 1750px;
     position: relative;
     padding: 30px 0 50px 0;
 }
 /** ligne verticale **/
 .ligne {
-    height: 1550px;
+    height: 1600px;
     width: 8px;
     margin: 0 auto;
     background: #184d47;
@@ -456,7 +456,27 @@ hr {
 
     .box-timeline {
         zoom: 1.8;
-        width: 100%;
+        min-width: 100%;
+    }
+
+    .box {
+        max-width: 100%;
+    }
+
+    .c-dialog__box {
+        zoom: 0.6;
+        max-width: 70%;
+    }
+
+    [role="button"] {
+        position: relative;
+        display: inline-block;
+        left: -17rem;
+        top: -0.5rem;
+        background:#f1f1f1;
+        color: grey;
+        text-decoration: none;
+        width: 5%;
     }
 
     .skill-row {
@@ -484,3 +504,5 @@ hr {
     }
 
 }
+
+
