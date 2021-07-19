@@ -184,7 +184,7 @@ hr {
 .r2{top: 380px;}
 .r3{top: 660px;}
 .r4{top: 960px;}
-.r5{top: 1250px;}
+.r5{top: 1260px;}
 .r6{top: 1500px;}
 
 /** box structure et format **/
@@ -220,7 +220,7 @@ hr {
 }
 
 .b5 {
-    top: 1250px;
+    top: 1260px;
     left: calc(50% - 170px);
 }
 
@@ -416,13 +416,21 @@ hr {
 
     .ligne {
         position: relative;
-        left: 170px;
+        left: 200px;
+        zoom: 1.8;
     }
     .rond {
-        left: calc(50% + 170px);
+        left: calc(50% + 200px);
+        zoom: 1.8;
     }
     .box {
         left: calc(50% - 10px);
+        zoom: 1.8;
+    }
+
+    .box-timeline {
+        height: auto;
+        margin-bottom: 10rem;
     }
 
     .top-container {
@@ -489,8 +497,12 @@ hr {
 
     .languages {
         zoom: 1.2;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding: 1rem 2.5rem 2.5rem 1rem;
+    }
+
+    .logo {
+        width: 15%;
+        margin: 1rem;
     }
 
     .interests {
@@ -503,5 +515,3 @@ hr {
     }
 
 }
-
-
