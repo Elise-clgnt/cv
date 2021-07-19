@@ -417,15 +417,16 @@ hr {
     .ligne {
         position: relative;
         left: 200px;
-        zoom: 1.8;
+        zoom: 1.5;
+        height: 1500px;
     }
     .rond {
         left: calc(50% + 200px);
-        zoom: 1.8;
+        zoom: 1.5;
     }
     .box {
         left: calc(45%);
-        zoom: 1.8;
+        zoom: 1.5;
         min-width: 70%;
         height: auto;
         margin: 0;
@@ -433,7 +434,34 @@ hr {
 
     .box-timeline {
         height: auto;
-        margin-bottom: 10rem;
+    }
+
+    .r1{top: 50px;}
+    .r2{top: 340px;}
+    .r3{top: 590px;}
+    .r4{top: 870px;}
+    .r5{top: 1140px;}
+    .r6{top: 1380px;}
+
+    .b1 {
+        top: 50px;
+    }
+    .b2 {
+        top: 340px;
+    }
+    .b3 {
+        top: 590px;
+    }
+    .b4 {
+        top: 870px;
+    }
+
+    .b5 {
+        top: 1140px;
+    }
+
+    .b6 {
+        top: 1380px;
     }
 
     .top-container {
