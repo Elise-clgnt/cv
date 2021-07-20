@@ -468,31 +468,31 @@ hr {
     }
 
     .r1{top: 3.125rem;}
-    .r2{top: 22.5rem;}
-    .r3{top: 38.875rem;}
-    .r4{top: 56.25rem;}
-    .r5{top: 73.625rem;}
-    .r6{top: 90rem;}
+    .r2{top: 30rem;}
+    .r3{top: 46.375rem;}
+    .r4{top: 63.75rem;}
+    .r5{top: 81.125rem;}
+    .r6{top: 97.5rem;}
 
     .b1 {
         top: 3.125rem;
     }
     .b2 {
-        top: 22.5rem;
+        top: 30rem;
     }
     .b3 {
-        top: 38.875rem;
+        top: 46.375rem;
     }
     .b4 {
-        top: 56.25rem;
+        top: 63.75rem;
     }
 
     .b5 {
-        top: 73.625rem;
+        top: 81.125rem;
     }
 
     .b6 {
-        top: 90rem;
+        top: 97.5rem;
     }
 
     .c-dialog__box {
