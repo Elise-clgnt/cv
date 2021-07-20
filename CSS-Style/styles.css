@@ -448,7 +448,7 @@ hr {
         position: relative;
         left: 240px;
         zoom: 1.2;
-        height: 135rem;
+        height: 130rem;
     }
     .rond {
         left: calc(50% + 240px);
@@ -463,8 +463,7 @@ hr {
     }
 
     .box-timeline {
-        height: auto;
-        margin-bottom: 5rem;
+        height: 170rem;
     }
 
     .r1{top: 3.125rem;}
