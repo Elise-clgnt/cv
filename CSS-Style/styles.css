@@ -446,18 +446,18 @@ hr {
 
     .ligne {
         position: relative;
-        left: 220px;
+        left: 240px;
         zoom: 1.2;
         height: 1350px;
     }
     .rond {
-        left: calc(50% + 220px);
+        left: calc(50% + 240px);
         zoom: 1.2;
     }
     .box {
         left: calc(45%);
         zoom: 1.2;
-        min-width: 65%;
+        min-width: 55%;
         height: auto;
         margin: 0;
     }
@@ -467,32 +467,32 @@ hr {
         margin-bottom: 5rem;
     }
 
-    .r1{top: 50px;}
-    .r2{top: 330px;}
-    .r3{top: 560px;}
-    .r4{top: 810px;}
-    .r5{top: 1060px;}
-    .r6{top: 1280px;}
+    .r1{top: 3.125rem;}
+    .r2{top: 20.625rem;}
+    .r3{top: 35rem;}
+    .r4{top: 50.625rem;}
+    .r5{top: 66.25rem;}
+    .r6{top: 80.625rem;}
 
     .b1 {
-        top: 50px;
+        top: 3.125rem;
     }
     .b2 {
-        top: 330px;
+        top: 20.625rem;
     }
     .b3 {
-        top: 560px;
+        top: 35rem;
     }
     .b4 {
-        top: 810px;
+        top: 50.625rem;
     }
 
     .b5 {
-        top: 1060px;
+        top: 66.25rem;
     }
 
     .b6 {
-        top: 1280px;
+        top: 80.625rem;
     }
 
     .c-dialog__box {
