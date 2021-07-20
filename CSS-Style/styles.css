@@ -448,7 +448,7 @@ hr {
         position: relative;
         left: 240px;
         zoom: 1.2;
-        height: 1515px;
+        height: 130rem;
     }
     .rond {
         left: calc(50% + 240px);
@@ -464,15 +464,15 @@ hr {
 
     .box-timeline {
         height: auto;
-        margin-bottom: 4rem;
+        margin-bottom: 10rem;
     }
 
     .r1{top: 3.125rem;}
     .r2{top: 30rem;}
-    .r3{top: 46.375rem;}
-    .r4{top: 63.75rem;}
-    .r5{top: 81.125rem;}
-    .r6{top: 97.5rem;}
+    .r3{top: 53.875rem;}
+    .r4{top: 78.75rem;}
+    .r5{top: 103.625rem;}
+    .r6{top: 127.5rem;}
 
     .b1 {
         top: 3.125rem;
@@ -481,18 +481,18 @@ hr {
         top: 30rem;
     }
     .b3 {
-        top: 46.375rem;
+        top: 53.875rem;
     }
     .b4 {
-        top: 63.75rem;
+        top: 78.75rem;
     }
 
     .b5 {
-        top: 81.125rem;
+        top: 103.625rem;
     }
 
     .b6 {
-        top: 97.5rem;
+        top: 127.5rem;
     }
 
     .c-dialog__box {
