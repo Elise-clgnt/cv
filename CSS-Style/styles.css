@@ -448,7 +448,7 @@ hr {
         position: relative;
         left: 240px;
         zoom: 1.2;
-        height: 125rem;
+        height: 135rem;
     }
     .rond {
         left: calc(50% + 240px);
@@ -472,7 +472,7 @@ hr {
     .r3{top: 53.875rem;}
     .r4{top: 78.75rem;}
     .r5{top: 103.625rem;}
-    .r6{top: 120rem;}
+    .r6{top: 127.5rem;}
 
     .b1 {
         top: 3.125rem;
@@ -492,7 +492,7 @@ hr {
     }
 
     .b6 {
-        top: 120rem;
+        top: 127.5rem;
     }
 
     .c-dialog__box {
