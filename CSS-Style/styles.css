@@ -463,7 +463,8 @@ hr {
     }
 
     .box-timeline {
-        height: 170rem;
+        height: auto;
+        margin-bottom: 5rem;
     }
 
     .r1{top: 3.125rem;}
