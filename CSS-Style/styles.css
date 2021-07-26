@@ -241,7 +241,7 @@ hr {
 .btn {
     display: inline-block;
     background: #184d47;
-    width: 40px;
+    width: auto;
     color: #f1f1f1;
     text-decoration: none;
     border-radius: 3px;
@@ -541,5 +541,3 @@ hr {
     }
 
 }
-
-
