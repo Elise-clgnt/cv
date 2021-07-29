@@ -415,13 +415,12 @@ hr {
 @media screen and (max-width: 1000px) {
 
     .top-container {
-        zoom: 1.8;
         margin-top: 8rem;
     }
 
     .tree-img {
         min-width: 100%;
-        zoom:2;
+        zoom:1;
         display: inline-block;
         position: relative;
         padding: 4rem 0 0 0;
@@ -429,34 +428,34 @@ hr {
 
 
     .birds-img {
-        min-width: 35%;
+        min-width: 40%;
         position: absolute;
     }
 
     .subtitle {
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 2;
     }
 
     .intro {
-        zoom: 1.2;
+        zoom: 1;
         width: 100%;
     }
 
 
     .ligne {
         position: relative;
-        left: 240px;
-        zoom: 1.2;
-        height: 130rem;
+        left: 175px;
+        zoom: 0.9;
+        height: 90rem;
     }
     .rond {
-        left: calc(50% + 240px);
-        zoom: 1.2;
+        left: calc(50% + 175px);
+        zoom: 0.9;
     }
     .box {
-        left: calc(45%);
-        zoom: 1.2;
+        left: calc(50%);
+        zoom: 0.9;
         min-width: 55%;
         height: auto;
         margin: 0;
@@ -464,47 +463,46 @@ hr {
 
     .box-timeline {
         height: auto;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     }
 
     .r1{top: 3.125rem;}
-    .r2{top: 30rem;}
-    .r3{top: 53.875rem;}
-    .r4{top: 78.75rem;}
-    .r5{top: 103.625rem;}
-    .r6{top: 123.75rem;}
+    .r2{top: 22rem;}
+    .r3{top: 38.875rem;}
+    .r4{top: 55.75rem;}
+    .r5{top: 73.625rem;}
+    .r6{top: 87.75rem;}
 
     .b1 {
         top: 3.125rem;
     }
     .b2 {
-        top: 30rem;
+        top: 22rem;
     }
     .b3 {
-        top: 53.875rem;
+        top: 38.875rem;
     }
     .b4 {
-        top: 78.75rem;
+        top: 55.75rem;
     }
 
     .b5 {
-        top: 103.625rem;
+        top: 73.625rem;
     }
 
     .b6 {
-        top: 123.75rem;
+        top: 87.75rem;
     }
 
     .c-dialog__box {
-        zoom: 1;
         max-width: 70%;
     }
 
     [role="button"] {
-        position: relative;
+        position: absolute;
         display: inline-block;
-        left: -14.5rem;
-        top: -0.5rem;
+        left: 2rem;
+        top: 5rem;
         background:#f1f1f1;
         color: grey;
         text-decoration: none;
@@ -513,7 +511,7 @@ hr {
 
     .skill-row {
         width: 100%;
-        zoom: 1.4;
+        zoom: 0.8;
     }
 
     .softskills {
@@ -521,18 +519,17 @@ hr {
     }
 
     .languages {
-        zoom: 1.2;
         padding: 1rem 2.5rem 2.5rem 1rem;
     }
 
     .logo {
-        width: 12%;
+        width: 20%;
         margin-left: 1rem;
         margin-top: 1rem;
     }
 
     .interests {
-        zoom: 1;
+        width: 80%;
     }
 
     .contact-me {
@@ -541,3 +538,5 @@ hr {
     }
 
 }
+
+
