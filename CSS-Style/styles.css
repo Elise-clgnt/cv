@@ -454,7 +454,7 @@ hr {
         zoom: 0.9;
     }
     .box {
-        left: calc(50% + 5px);
+        left: calc(50% - 10px);
         zoom: 0.9;
         min-width: 55%;
         height: auto;
