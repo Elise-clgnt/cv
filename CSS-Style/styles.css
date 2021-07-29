@@ -204,29 +204,29 @@ hr {
 /** placement des box liés aux ronds **/
 .b1 {
     top: 50px;
-    left: calc(50% - 170px);
+    left: calc(50% - 180px);
 }
 .b2 {
     top: 380px;
-    left: calc(50% + 170px);
+    left: calc(50% + 180px);
 }
 .b3 {
     top: 660px;
-    left: calc(50% - 170px);
+    left: calc(50% - 180px);
 }
 .b4 {
     top: 960px;
-    left: calc(50% + 170px);
+    left: calc(50% + 180px);
 }
 
 .b5 {
     top: 1260px;
-    left: calc(50% - 170px);
+    left: calc(50% - 180px);
 }
 
 .b6 {
     top: 1500px;
-    left: calc(50% + 170px);
+    left: calc(50% + 180px);
 }
 
 /** Formatage de la box et du contenu **/
@@ -538,3 +538,5 @@ hr {
     }
 
 }
+
+
