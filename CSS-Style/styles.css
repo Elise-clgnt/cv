@@ -423,7 +423,7 @@ hr {
         zoom:1;
         display: inline-block;
         position: relative;
-        padding: 4rem 0 0 0;
+        padding: 3rem 0 0 0;
     }
 
 
@@ -445,12 +445,12 @@ hr {
 
     .ligne {
         position: relative;
-        left: 175px;
+        left: 180px;
         zoom: 0.9;
         height: 90rem;
     }
     .rond {
-        left: calc(50% + 175px);
+        left: calc(50% + 180px);
         zoom: 0.9;
     }
     .box {
@@ -538,5 +538,3 @@ hr {
     }
 
 }
-
-
