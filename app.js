@@ -9,7 +9,7 @@ allBoxes.forEach(box => {
 
         if(allRonds[i].getAttribute('data-anim') === box.getAttribute('data-anim')){
 
-            let tween = gsap.from(box, {y: -50, opacity: 0, duration: 0.5})
+            let tween = gsap.from(box, {y: -150, opacity: 0, duration: 0.5})
 
             let scene = new ScrollMagic.Scene({
                 triggerElement: allRonds[i],
